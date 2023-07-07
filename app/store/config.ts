@@ -21,9 +21,9 @@ export enum Theme {
 }
 
 export const DEFAULT_CONFIG = {
-  submitKey: SubmitKey.CtrlEnter as SubmitKey,
+  submitKey: SubmitKey.Enter as SubmitKey,
   avatar: "1f603",
-  fontSize: 14,
+  fontSize: 17,
   theme: Theme.Auto as Theme,
   tightBorder: !!getClientConfig()?.isApp,
   sendPreviewBubble: true,
@@ -45,7 +45,7 @@ export const DEFAULT_CONFIG = {
     frequency_penalty: 0,
     sendMemory: false,
     historyMessageCount: 12,
-    compressMessageLengthThreshold: 1000,
+    compressMessageLengthThreshold: 13000,
     template: DEFAULT_INPUT_TEMPLATE,
   },
 };
