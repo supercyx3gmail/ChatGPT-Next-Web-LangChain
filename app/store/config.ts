@@ -34,7 +34,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  customModels: "",
+  customModels: "gpt-3.5-turbo-openai,gpt-3.5-turbo-16k-openai,gpt-4-poe,gpt-3.5-turbo-poe,sage,claude-instant,claude+,claude-instant-100k,chat-bison-001,text-davinci-003",
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
@@ -45,7 +45,7 @@ export const DEFAULT_CONFIG = {
     presence_penalty: 0,
     frequency_penalty: 0,
     sendMemory: false,
-    historyMessageCount: 12,
+    historyMessageCount: 15,
     compressMessageLengthThreshold: 13000,
     template: DEFAULT_INPUT_TEMPLATE,
   },
