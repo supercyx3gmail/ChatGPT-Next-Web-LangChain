@@ -94,7 +94,7 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-3.5-turbo-0301",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-3.5-turbo-0613",
