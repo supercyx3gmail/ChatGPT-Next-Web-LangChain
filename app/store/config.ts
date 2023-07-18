@@ -34,7 +34,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  customModels: "gpt-3.5-turbo-openai,gpt-3.5-turbo-16k-openai,gpt-3.5-turbo-16k-poe,gpt-4-poe,gpt-3.5-turbo-poe,sage,claude-instant,claude-2-100k,claude-instant-100k",
+  customModels: "gpt-4-poe,gpt-4-32k-poe,gpt-3.5-turbo-16k-poe,gpt-3.5-turbo-poe,sage,claude-instant,claude-2-100k,claude-instant-100k",
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
