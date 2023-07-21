@@ -23,7 +23,7 @@ export enum Theme {
 export const DEFAULT_CONFIG = {
   submitKey: SubmitKey.Enter as SubmitKey,
   avatar: "1f603",
-  fontSize: 17,
+  fontSize: 18,
   theme: Theme.Auto as Theme,
   tightBorder: !!getClientConfig()?.isApp,
   sendPreviewBubble: true,
@@ -39,7 +39,7 @@ export const DEFAULT_CONFIG = {
 
   modelConfig: {
     model: "gpt-3.5-turbo-16k" as ModelType,
-    temperature: 0.5,
+    temperature: 0.6,
     top_p: 1,
     max_tokens: 32000,
     presence_penalty: 0,
