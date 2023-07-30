@@ -85,14 +85,6 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "llama-2-7b-chat",
-    available: true,
-  },
-  {
-    name: "llama-2-13b-chat",
-    available: true,
-  },
-  {
     name: "llama-2-70b-chat",
     available: true,
   },
