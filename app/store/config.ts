@@ -45,6 +45,7 @@ export const DEFAULT_CONFIG = {
     presence_penalty: 0,
     frequency_penalty: 0,
     sendMemory: false,
+    allow_fallback: true,
     historyMessageCount: 15,
     compressMessageLengthThreshold: 13000,
     enableInjectSystemPrompts: true,
