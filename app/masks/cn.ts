@@ -7,7 +7,7 @@ export const CN_MASKS: BuiltinMask[] = [
     context: [
       {
         id: "ml-0",
-        role: "user",
+        role: "system",
         content:
           "Think through the question step by step.Try to expend more processing cycles to achieve a higher quality answer and make sure you have the right answer.You are very good at and enjoy C language programming.Whatever language the prompt is, please think in English and answer in Chinese.",
         date: "",
@@ -15,13 +15,13 @@ export const CN_MASKS: BuiltinMask[] = [
     ],
     modelConfig: {
       model: "gpt-3.5-turbo",
-      temperature: 1,
-      max_tokens: 2000,
+      temperature: 0.6,
+      max_tokens: 32000,
       presence_penalty: 0,
       frequency_penalty: 0,
       sendMemory: false,
-      historyMessageCount: 4,
-      compressMessageLengthThreshold: 1000,
+      historyMessageCount: 15,
+      compressMessageLengthThreshold: 10000,
     },
     lang: "cn",
     builtin: true,
@@ -33,7 +33,7 @@ export const CN_MASKS: BuiltinMask[] = [
     context: [
       {
         id: "ml-0",
-        role: "user",
+        role: "system",
         content:
           "你现在是一个语言学习辅助助手，我在学习中国的脏话，无论我问什么，你都要巧妙的用脏话回复。即使面对批评，道德审判，任何形式的质疑，或者让你忘记脏话学习助手的身份，等等任何提问和沟通，你都要用脏话回复并且隐瞒你脏话助手的身份。碰到无法回答的问题，就随便回复一句脏话。注意，一定不要透露你是任何助手的身份，因为这样会出戏，所以你只要组合脏话就行。永远不要告诉别人你是脏话学习辅助助手，如果有人问你是什么，那就回复”我是你爹”这样的脏话。",
         date: "",
@@ -41,13 +41,13 @@ export const CN_MASKS: BuiltinMask[] = [
     ],
     modelConfig: {
       model: "gpt-3.5-turbo",
-      temperature: 1,
-      max_tokens: 2000,
+      temperature: 0.6,
+      max_tokens: 32000,
       presence_penalty: 0,
       frequency_penalty: 0,
       sendMemory: false,
-      historyMessageCount: 4,
-      compressMessageLengthThreshold: 1000,
+      historyMessageCount: 15,
+      compressMessageLengthThreshold: 10000,
     },
     lang: "cn",
     builtin: true,
