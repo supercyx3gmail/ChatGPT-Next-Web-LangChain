@@ -19,7 +19,6 @@ export interface LLMConfig {
   temperature?: number;
   top_p?: number;
   stream?: boolean;
-  allow_fallback?: boolean; //新加，true为备用
   presence_penalty?: number;
   frequency_penalty?: number;
 }
